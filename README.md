@@ -18,7 +18,7 @@ http://twosquirrel.mints.ne.jp/?p=16050
 ## Installation
 
     $ git clone https://github.com/adash333/ionic3-calculate.git
-    $ cd ionic3-timer
+    $ cd ionic3-calculate
     $ npm install
     $ ionic serve
 
