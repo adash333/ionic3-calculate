@@ -44,7 +44,7 @@ Angular2によるモダンWeb開発 Kindle版
 発売日：2017/1/18  
 https://www.amazon.co.jp/dp/B06X41LVCB
 
-参考
+(参考)
 
 ionic-cli v3になり、コマンドが変更になっていますので、2017年5月以降は、以下のリンクを参考になさってください。
 

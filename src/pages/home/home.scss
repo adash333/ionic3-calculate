@@ -1,3 +1,10 @@
 page-home {
+  h1,h2 { text-align: center; }
+  table { width: 100%; } 
+  td {text-align: right; }
 
+  /*偶数行目の背景を着色*/
+  div tr:nth-child(odd){
+    background-color: cornsilk;
+  }
 }

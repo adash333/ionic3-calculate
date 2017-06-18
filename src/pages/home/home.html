@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content padding>
-  
+
   <ion-list>
     <ion-item>
       <ion-label stacked>元本（円）</ion-label>
@@ -20,14 +20,23 @@
   </ion-list>
 
   <!--入力済みの場合に表示-->
-  <ion-card *ngIf="initValue && rate">
+  <ion-card *ngIf="initValue && rate" color="primary">
     <ion-card-header>
-      10年後
+      <h1>10年後</h1>
     </ion-card-header>
     <!--結果表示-->
     <ion-card-content>
-      {{calc() | number}}円
+      <h2>{{calc() | number}}円</h2>
     </ion-card-content>
   </ion-card>
 
+  <!--明細表示-->
+  <ion-card *ngIf="initValue && rate">
+    <table>
+	    <tr
+        *ngFor="let value of calcArray(); let i = index">
+        <td>{{i}}年目</td>
+        <td>{{value | number}}円</td>
+    </table>
+  </ion-card>
 </ion-content>
