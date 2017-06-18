@@ -1,14 +1,33 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      複利計算
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <ion-list>
+    <ion-item>
+      <ion-label stacked>元本（円）</ion-label>
+      <ion-input type="tel" [(ngModel)]="initValue"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>金利（%）</ion-label>
+      <ion-input type="tel" [(ngModel)]="rate"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <!--入力済みの場合に表示-->
+  <ion-card *ngIf="initValue && rate">
+    <ion-card-header>
+      10年後
+    </ion-card-header>
+    <!--結果表示-->
+    <ion-card-content>
+      {{calc() | number}}円
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
