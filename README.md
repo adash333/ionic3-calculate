@@ -4,7 +4,7 @@ ionic3による複利計算アプリ
 
 詳細は以下
 
-http://twosquirrel.mints.ne.jp/dokuwiki/doku.php/ionic3%E3%81%A7%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA
+[ionic3で計算アプリ](http://twosquirrel.mints.ne.jp/dokuwiki/doku.php/ionic3%E3%81%A7%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA)
 
 http://twosquirrel.mints.ne.jp/?p=16050
 
